@@ -1,0 +1,367 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Portfolio</title>
+<meta name="description" content="Personal portfolio — projects, skills, contact">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <style r></style>
+</head>
+<body>
+
+<div class="wrap">
+
+<!-- Header -->
+<header class="fade-in">
+  <div class="brand slide-left">
+    <div class="profile-wrapper" tabindex="0">
+      <div class="logo">
+        <img src="images/my-avatar.png" alt="Your Name Avatar" class="avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="initials">AC</div>
+      </div>
+    </div>
+    <div>
+      <div class="name">Amit Chopade</div>
+      <div class="role">Frontend Developer • Web Freelancer</div>
+    </div>
+  </div>
+
+  <!-- Hamburger Menu -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="slide-right" id="nav-links">
+    <a class="nav-link" href="#projects">Projects</a>
+    <a class="nav-link" href="#skills">Skills</a>
+    <a class="nav-link" href="#why">Why Me</a>
+    <a class="nav-link" href="#testimonials">Testimonials</a>
+    <a class="nav-link" href="#about">About Me</a>
+      <a href="asset/amit_cv1.pdf" target="_blank" class="nav-link" >Resume</a>
+    <a class="nav-link" href="#contact">Contact</a>
+    <a class="cta" href="#contact">Hire Me</a>
+  </nav>
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero fade-in">
+  <div class="hero-left slide-left">
+    <h1>Hi — I'm Amit Chopade aka Wolfee.</h1>
+    <p>I build clean, modern websites and web apps. I help startups and small businesses and small projects ship polished digital products.</p>
+    <div class="roles">
+      <div class="pill">HTML & CSS</div>
+      <div class="pill">JavaScript</div>
+      <div class="pill">WordPress</div>
+      <div class="pill">PHP</div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section fade-in">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <article class="proj fade-in">
+      <a href="file:///C:/wamp64/www/wolf/home.html" target="_blank">
+        <img src="images/project1.png" alt="Portfolio Website" style="width:100%;border-radius:8px;cursor:pointer;">
+      </a>
+      <h3>Portfolio Website</h3>
+      <div style="color:#9aa4b2;font-size:13px">
+        Single-file responsive portfolio with dark mode.
+      </div>
+      <div class="tags">
+        <div class="tag">HTML</div><div class="tag">CSS</div><div class="tag">JS</div>
+      </div>
+    </article>
+
+    <article class="proj fade-in">
+      <a href="https://your-ecommerce-demo.com" target="_blank">
+        <img src="images/project2.png" alt="E-commerce App" style="width:100%;border-radius:8px;cursor:pointer;">
+      </a>
+      <h3>E-commerce App</h3>
+      <div style="color:#9aa4b2;font-size:13px">
+        Full-stack e-commerce application with React & Node.js.
+      </div>
+      <div class="tags">
+        <div class="tag">HTML</div><div class="tag">JavaScript</div><div class="tag">PHP</div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="section fade-in">
+  <h2>Skills</h2>
+
+  <div class="skill-grid">
+
+    <div class="skill" style="--percent: 85%;">
+      <img src="images/html-5.png" alt="HTML">
+      <div class="skill-name">HTML</div>
+      <div class="percent-bar">
+        <div class="percent-bar-fill"></div>
+      </div>
+      <span class="percent">85%</span>
+    </div>
+
+    <div class="skill" style="--percent: 80%;">
+      <img src="images/css.png" alt="CSS">
+      <div class="skill-name">CSS</div>
+      <div class="percent-bar">
+        <div class="percent-bar-fill"></div>
+      </div>
+      <span class="percent">80%</span>
+    </div>
+
+    <div class="skill" style="--percent: 75%;">
+      <img src="images/java-script.png" alt="JavaScript">
+      <div class="skill-name">JavaScript</div>
+      <div class="percent-bar">
+        <div class="percent-bar-fill"></div>
+      </div>
+      <span class="percent">75%</span>
+    </div>
+
+    <div class="skill" style="--percent: 80%;">
+      <img src="images/wordpress.png" alt="WordPress">
+      <div class="skill-name">WordPress</div>
+      <div class="percent-bar">
+        <div class="percent-bar-fill"></div>
+      </div>
+      <span class="percent">80%</span>
+    </div>
+
+    <div class="skill" style="--percent: 70%;">
+      <img src="images/java.png" alt="Java">
+      <div class="skill-name">Java</div>
+      <div class="percent-bar">
+        <div class="percent-bar-fill"></div>
+      </div>
+      <span class="percent">70%</span>
+    </div>
+
+    <div class="skill" style="--percent: 75%;">
+      <img src="images/php-logo.png" alt="Java">
+      <div class="skill-name">PHP</div>
+      <div class="percent-bar">
+        <div class="percent-bar-fill"></div>
+      </div>
+      <span class="percent">75%</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Why Me Section -->
+<section id="why" class="section fade-in">
+  <h2>Why Choose Me</h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <img src="images/fast.gif" alt="">
+      <h3>Fast Delivery</h3>
+      <p>Projects delivered on time with best quality.</p>
+    </div>
+    <div class="why-card">
+      <img src="images/responsive.gif" alt="">
+      <h3>Responsive Design</h3>
+      <p>Websites look great on all devices.</p>
+    </div>
+    <div class="why-card">
+      <img src="images/support.gif" alt="">
+      <h3>24/7 Support</h3>
+      <p>Always available for updates and support.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section fade-in">
+  <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <img src="images/avatar-1.png" alt="Client 1">
+        <p>"Fantastic work, very professional!"</p>
+        <strong>Client 1</strong>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/avatar-2.png" alt="Client 2">
+        <p>"Delivered on time and exceeded expectations."</p>
+        <strong>Client 2</strong>
+      </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section fade-in">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <form class="contact-form" onsubmit="handleContact(event)">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="message" rows="5" placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+
+      
+
+        <div class="social-links">
+  <a href="https://facebook.com" target="_blank" class="facebook">
+    <img src="images/733603.png" alt="Facebook">
+  </a>
+  <a href="https://twitter.com" target="_blank" class="twitter">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+  </a>
+  <a href="https://www.instagram.com/mr.amit1805/" target="_blank" class="instagram">
+    <img src="images/instagram.png" alt="Instagram">
+  </a>
+  <a href="https://www.linkedin.com/in/amit-chopade18/" target="_blank" class="linkedin">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/Amit-1805" target="_blank" class="github">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="GitHub">
+  </a>
+</div>
+
+    </form>
+    <!-- Map Section -->
+    <div class="map-container">
+      <!-- Google Maps Embed -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.676126808062!2d72.87765541536056!3d19.076090987084627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c63084a58c63%3A0xf3bcb4a90a8b5d2e!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1697304471925!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen=""
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="section fade-in">
+  <h2>About Me</h2>
+  <div class="about-container" style="display:flex;gap:30px;flex-wrap:wrap;align-items:center;justify-content:center;">
+
+    <!-- Profile Card -->
+    <div class="profile-wrapper1" style="max-width:300px;">
+      <div class="logo">
+        <img src="images/my-avatar.png" alt="Amit Chopade Avatar" class="avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="initials">AC</div>
+      </div>
+      <h3 style="margin-top:16px;color:#06b6d4;text-align:center;">Amit Chopade</h3>
+      <p style="text-align:center;color:#9aa4b2;">Creative Technologist & Problem Solver</p>
+    </div>
+
+    <!-- About Text -->
+    <div style="max-width:600px; flex:1;">
+      <p style="color:#e2e8f0;font-size:1rem;line-height:1.6;">
+        Hello! I’m Amit, a tech enthusiast who loves transforming ideas into digital experiences. I don’t just write code—I craft solutions that make life easier and businesses smarter. My journey began with curiosity about how websites and apps work, and today I design, develop, and optimize digital spaces with attention to detail and performance.
+      </p>
+
+      <!-- Qualifications -->
+      <h3 style="color:#06b6d4;margin-top:20px;">Qualifications</h3>
+      <ul style="color:#cbd5e1;font-size:0.95rem;line-height:1.6;">
+        <li>BBA in Computer Applications (SNBP ACS College, Pune)</li>
+        <li>Certified in Web Development and Java Programming</li>
+        <li>Learning Cybersecurity & Ethical Hacking</li>
+        <li>Proficient in Python, Java, HTML, CSS, and JavaScript</li>
+      </ul>
+
+      <!-- Hobbies -->
+      <h3 style="color:#06b6d4;margin-top:20px;">Hobbies</h3>
+      <ul style="color:#cbd5e1;font-size:0.95rem;line-height:1.6;">
+        <li>Exploring new tech and programming challenges</li>
+        <li>Gaming and strategy-based games</li>
+        <li>Reading tech blogs, articles, and novels</li>
+        <li>Photography and digital art experiments</li>
+        <li>Traveling to discover new cultures and ideas</li>
+      </ul>
+
+      <!-- Languages Known -->
+      <h3 style="color:#06b6d4;margin-top:20px;">Languages Known</h3>
+      <ul style="color:#cbd5e1;font-size:0.95rem;line-height:1.6;">
+        <li>English – Fluent</li>
+        <li>Hindi – Native</li>
+        <li>Marathi – Fluent</li>
+        <li>Basic Spanish – Learning</li>
+      </ul>
+
+      <!-- Fun / Unique Facts -->
+      <h3 style="color:#06b6d4;margin-top:20px;">A Few Quirks About Me</h3>
+      <ul style="color:#cbd5e1;font-size:0.95rem;line-height:1.6;">
+        <li>I love turning complex problems into simple, elegant solutions.</li>
+        <li>Experimenting with design ideas inspires my coding creativity.</li>
+        <li>I often explore emerging tech trends to stay ahead of the curve.</li>
+        <li>Every project I build has a story, and I make sure it resonates with users.</li>
+        <li>Coffee + late-night coding = some of my best breakthroughs.</li>
+      </ul>
+
+      <!-- Unique Personal Touch -->
+      <p style="color:#e2e8f0;font-size:1rem;line-height:1.6;margin-top:15px;">
+        My personal mantra: <strong>"Build with passion, learn continuously, and make every line of code count."</strong>  
+        I believe technology is not just about solving problems—it's about creating experiences that inspire and connect people.
+      </p>
+
+      <!-- Download Resume Button -->
+      <a href="asset/amit_cv1.pdf" target="_blank" class="cta" style="margin-top:20px;display:inline-block;">Download Resume</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Wolfee. All rights reserved.</p>
+  <p>Connect: <a href="https://github.com/Amit-1805">GitHub</a> | <a href="https://www.instagram.com/mr.amit1805/">LinkedIn</a> | <a href="https://www.instagram.com/mr.amit1805/">Twitter</a></p>
+  <a href="#" class="back-to-top">↑ Back to Top</a>
+</footer>
+
+</div>
+
+<script>
+   <!-- EmailJS v4 SDK -->
+  emailjs.init("G5mHO6doeawEK6c3I");
+
+  function handleContact(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    emailjs.send("service_2kir8h4", "template_2vj9xrr", {
+      from_name: name,
+      from_email: email,
+      message: message,
+    })
+    .then(
+      (response) => {
+        console.log("SUCCESS!", response);
+        alert("✅ Message sent successfully hogaya!");
+        document.getElementsByClassName('contact-form').reset();
+      },
+      (error) => {
+        console.error("FAILED...", error);
+        alert("❌ Error sending message.");
+      }
+    );
+  }
+
+
+
+
+  </script>
+  <script src="script.js"></script>
+
+</body>
+</html>
