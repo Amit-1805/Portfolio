@@ -49,7 +49,7 @@ It showcases my skills, projects, and contact information in a simple and modern
 ---
 
 ## 📸 Preview
-*(Add your screenshot here if you want)*
+
 
 ---
 
